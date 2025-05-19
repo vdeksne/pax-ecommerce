@@ -215,10 +215,10 @@ ANYMAIL = {
     "MAILGUN_SENDER_DOMAIN": os.environ.get("MAILGUN_SENDER_DOMAIN"),
 }
 
-FROM_EMAIL = " desphixs@gmail.com"
+FROM_EMAIL = " viktorijadeksne@gmail.com"
 EMAIL_BACKEND = "anymail.backends.mailgun.EmailBackend"
-DEFAULT_FROM_EMAIL = " desphixs@gmail.com"
-SERVER_EMAIL = " desphixs@gmail.com"
+DEFAULT_FROM_EMAIL = " viktorijadeksne@gmail.com"
+SERVER_EMAIL = " viktorijadeksne@gmail.com"
 
 CORS_ALLOW_ALL_ORIGINS = True
 
